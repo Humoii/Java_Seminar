@@ -15,17 +15,20 @@ public class Work1 {
 
     public static void ex() {
         Scanner acceptUser = new Scanner(System.in);
-        String text = acceptUser.nextLine();
+        LinkedList list = new LinkedList<>();
         while (true) {
             int count = 0;
             System.out.println("Введите строку: ");
-            LinkedList list = new LinkedList<>();
+            String text = acceptUser.nextLine();
             if (text.equals("print")) {
-                System.out.println(text);
+                for (int i = 0; i < list.size(); i++) {
+                    count = list.size()-1;
+                    System.out.println(list.get(count));
+
+                }
             }else {
                 list.add(text);
             }
-            System.out.println(count);
             System.out.println(list);
         }
     }
