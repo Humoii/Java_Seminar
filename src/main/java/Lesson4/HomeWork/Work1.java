@@ -22,9 +22,8 @@ public class Work1 {
             String text = acceptUser.nextLine();
             if (text.equals("print")) {
                 for (int i = 0; i < list.size(); i++) {
-                    count = list.size()-1;
-                    System.out.println(list.get(count));
-
+                    count++;
+                    System.out.println(list.get(list.size()-count));
                 }
             }else {
                 list.add(text);
