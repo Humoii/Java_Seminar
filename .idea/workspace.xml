@@ -52,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Work1">
+  <component name="RunManager" selected="Application.Work2">
     <configuration name="Lesson3.HomeWork.Work3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson3.HomeWork.Work3" />
       <module name="Seminar" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassFromLessonThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.MainClassFromLessonThree" />
-      <module name="Seminar" />
+    <configuration name="Work1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.HomeWork.Work1" />
+      <module name="Java_Seminar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson4.HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.HomeWork.Work1" />
+    <configuration name="Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.HomeWork.Work2" />
       <module name="Seminar" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Work2" />
         <item itemvalue="Application.Work1" />
         <item itemvalue="Application.MainClassFromLessonFour" />
         <item itemvalue="Application.Work4" />
         <item itemvalue="Application.Lesson3.HomeWork.Work3" />
-        <item itemvalue="Application.MainClassFromLessonThree" />
       </list>
     </recent_temporary>
   </component>

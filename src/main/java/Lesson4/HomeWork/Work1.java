@@ -15,20 +15,26 @@ public class Work1 {
 
     public static void ex() {
         Scanner acceptUser = new Scanner(System.in);
-        LinkedList list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         while (true) {
             int count = 0;
             System.out.println("Введите строку: ");
             String text = acceptUser.nextLine();
-            if (text.equals("print")) {
-                for (int i = 0; i < list.size(); i++) {
-                    count++;
-                    System.out.println(list.get(list.size()-count));
-                }
-            }else {
-                list.add(text);
+            if (text.equalsIgnoreCase("end")){
+                break;
             }
-            System.out.println(list);
+            if (text.equalsIgnoreCase("revert")){
+                list.remove(list.size()-1);
+            }else {
+                if (text.equalsIgnoreCase("print")) {
+                    for (int i = 0; i < list.size(); i++) {
+                        count++;
+                        System.out.printf("%d) находится значение: %s%n", count, list.get(list.size() - count));
+                    }
+                } else {
+                    list.add(text);
+                }
+            }
         }
     }
 }
