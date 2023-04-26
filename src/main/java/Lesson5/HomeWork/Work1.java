@@ -18,7 +18,7 @@ public class Work1 {
 
             for (int i = 0; i < scanCountRecording; i++) {
                 Scanner countPhoneScan = new Scanner(System.in);
-                System.out.println("Введите какое количество номеров телефона: ");
+                System.out.println("Введите какое количество номеров телефона у этого пользователя: ");
                 Integer countPhone = countPhoneScan.nextInt();
 
                 List<String> arr = new ArrayList<>();

@@ -60,7 +60,7 @@ public class Work2 {
         int number = 0;
         for (String el : result.keySet()) {
             number++;
-            System.out.printf("%d) %s=%s%n",number, el, result.get(el));
+            System.out.printf("%d) %s=%s%n", number, el, result.get(el));
         }
     }
 }
