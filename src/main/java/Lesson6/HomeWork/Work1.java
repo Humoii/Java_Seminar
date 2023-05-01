@@ -53,17 +53,21 @@ public class Work1 {
         String scanner = searchLaptop.next();
         int count = 0;
         for (Laptop laptop : uniqueLaptop) {
-            if (Integer.parseInt(laptop.getRamLaptop()) >= Integer.parseInt(scanner)){
-                count++;
-                System.out.printf("Название ноутбука: %s, Оставшиеся количество: %d, Оперативная память: %s%n",
-                                                                                        laptop.getNameLaptop(),
-                                                                                        laptop.getQuantityLaptop(),
-                                                                                        laptop.getRamLaptop());
-            }
-            if (laptop.getColorLaptop().equals(scanner.toLowerCase())){
-                count++;
-                System.out.printf("Название ноутбука: %s, Оставшиеся количество: %d%n",laptop.getNameLaptop(),
-                                                                                        laptop.getQuantityLaptop());
+            try {
+                Integer.parseInt(scanner);
+                if (Integer.parseInt(laptop.getRamLaptop()) >= Integer.parseInt(scanner)){
+                    count++;
+                    System.out.printf("Название ноутбука: %s, Оставшиеся количество: %d, Оперативная память: %s%n",
+                            laptop.getNameLaptop(),
+                            laptop.getQuantityLaptop(),
+                            laptop.getRamLaptop());
+                }
+            } catch (NumberFormatException с) {
+                if (laptop.getColorLaptop().equals(scanner.toLowerCase())){
+                    count++;
+                    System.out.printf("Название ноутбука: %s, Оставшиеся количество: %d%n",laptop.getNameLaptop(),
+                            laptop.getQuantityLaptop());
+                }
             }
         }
         if (count == 0){

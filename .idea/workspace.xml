@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6df3d8f3-0cc6-494c-9f5c-4919cd2098d2" name="Changes" comment="Семинар 4 и ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/Cats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/HomeWork/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/HomeWork/Work1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/MainClassFromLessonSix.java" afterDir="false" />
+    <list default="true" id="6df3d8f3-0cc6-494c-9f5c-4919cd2098d2" name="Changes" comment="Урок 6 и ДЗ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1/HomeWork/Work1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/HomeWork/Work1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1/HomeWork/Work3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1/HomeWork/Work3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson6/HomeWork/Work1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson6/HomeWork/Work1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682004150395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Исправления">
+      <created>1682937611497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682937611497</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Урок 6 и ДЗ">
+      <created>1682937657299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682937657299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Семинар 3 и ДЗ" />
     <MESSAGE value="Семинар 4 и ДЗ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Семинар 4 и ДЗ" />
+    <MESSAGE value="Исправления" />
+    <MESSAGE value="Урок 6 и ДЗ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 6 и ДЗ" />
   </component>
 </project>
