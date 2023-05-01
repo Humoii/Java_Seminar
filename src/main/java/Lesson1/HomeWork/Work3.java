@@ -29,7 +29,7 @@ public class Work3 {
         if (hour >= 18 & hour < 23) {
             System.out.printf("Добрый вечер, %s", name);
         }
-        if (hour >= 00 & hour < 5) {
+        if (hour < 5) {
             System.out.printf("Доброй ночи, %s", name);
         }
     }
